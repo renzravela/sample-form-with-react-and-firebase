@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+form{
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.item{
+  text-align: start;
+  margin: 3rem auto;
+  width: 50%;
+}
+
+.delete-btn, .update-btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1em;
+  font-size: .8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #f9f9f9;
+}
+.delete-btn:hover, .update-btn:hover {
+  border-color: #646cff;
+}
