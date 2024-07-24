@@ -28,6 +28,7 @@ const Form = () => {
           onChange={(event) => {setName(event.target.value)}}
           className="form-input mt-1 block w-full rounded"
           placeholder="Name"
+          required
         />
       </label>
 
@@ -39,10 +40,11 @@ const Form = () => {
           onChange={(event) => {setEmail(event.target.value)}}
           className="form-input block mt-1 w-full rounded"
           placeholder="Email"
+          required
         />
       </label>
 
-      <button type="submit" className="submit-button w-6/12">
+      <button type="submit" className="submit-button">
         Submit
       </button>
     </form>
