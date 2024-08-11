@@ -32,3 +32,16 @@ form{
 .delete-btn:hover, .update-btn:hover {
   border-color: #646cff;
 }
+
+@media (max-width: 560px) {
+  #root {
+    padding: 1.5rem;
+  }
+  .myForm{
+    width: 100% !important;
+  }
+
+  .item{
+    width: 100% !important;
+  }
+}
