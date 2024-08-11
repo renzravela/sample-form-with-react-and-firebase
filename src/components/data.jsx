@@ -47,11 +47,11 @@ const Data = () => {
     }
 
     if(loading){
-        return <p className="mt-5">Loading...</p>
+        return <p className="mt-5 text-center">Loading...</p>
     }
 
     if(error){
-        return <p className="mt-5">Error: {error}</p>
+        return <p className="mt-5 text-center">Error: {error}</p>
     }
 
     return (
